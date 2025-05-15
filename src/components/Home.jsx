@@ -6,7 +6,7 @@ function Home() {
   const handleDownload = () => {
     // Logic to download the CV
     const link = document.createElement("a");
-    link.href = "../public/resume1.pdf"; // Replace with the actual path to your CV
+    link.href = "/resume1.pdf"; // Replace with the actual path to your CV
     link.download = "Kovith_CV.pdf"; // Name of the downloaded file
     document.body.appendChild(link);
     link.click();
