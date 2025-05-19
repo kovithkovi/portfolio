@@ -26,7 +26,7 @@ export default function Header() {
       <nav>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <h1 className="text-4xl font-bold bg-gradient-to-r from-[#FA6E00] to-[#E60026] bg-clip-text text-transparent">
-            Flowbite
+            Kovith
           </h1>
 
           {/* Hamburger Icon - only visible on small screens */}
