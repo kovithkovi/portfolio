@@ -62,7 +62,7 @@ export default function Contact() {
             className="w-[400px] h-[100px] rounded-[5px] border border-[#707070] p-4 mb-4 placeholder-[#707070] text-white"
             required
           ></textarea>
-          <button className="bg-[#FF3D00] text-white w-[150px] h-[50px] rounded-[5px] my-10">
+          <button className="bg-[#FF3D00] text-white w-[150px] h-[50px] rounded-[5px] my-10 hover:cursor-pointer transition duration-300 ease-in-out">
             Send Message
           </button>
         </form>

@@ -11,7 +11,7 @@ function Service() {
         </p>
       </div>
 
-      <div className="w-full max-w-[1150px] mb-[100px] mt-[50px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mx-auto justify-items-center">
+      <div className="w-full max-w-[1150px] mb-[100px] mt-[50px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mx-auto justify-items-center">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service} />
         ))}
